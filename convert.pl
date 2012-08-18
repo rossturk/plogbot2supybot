@@ -1,5 +1,12 @@
 #!/usr/bin/perl -w
 
+#
+# convert.pl - Converts a plogbot IRC chat log to the supybot format
+#
+# Oh! And changes the TZ from CET to America/Los_Angeles. Don't forget
+# about that.
+#
+
 use Data::Dumper;
 use HTML::Entities;
 use DateTime;
